@@ -1,0 +1,42 @@
+.ourpage {
+    height: 6000px;
+    width: 1800px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(232, 240, 241);
+    margin: none;
+}
+
+
+.content {
+    background-color: white;
+    height: 1100px;
+    width: 500px;
+    box-shadow: 5px 5px 3px #bfcbd1;
+    left: 30%;
+    position: absolute;
+    top: 15%;
+    outline: solid;
+    color: #ebebeb;
+    padding: 50px 50px 50px 50px;
+
+
+    }
+
+    .ourheader {
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Verdana sans-serif;
+
+    }
+    .ourtext1 {
+    color: black;
+
+    }
+    .maintext {
+        color: black;
+    }
+
+    
+
