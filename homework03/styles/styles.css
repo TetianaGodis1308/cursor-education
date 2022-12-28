@@ -1,5 +1,443 @@
 .ourpage {
-background-color: black;
-width: 100%;
-height: 100%
+background-color: #E5E5E5;
+position: relative;
+width: max-content;
+height: max-content;
 }
+
+.content {
+    position: relative;
+    margin-left: 200px;
+}
+
+.content h1 {
+    color:#0B2239;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 110px;
+    line-height: 133px;
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.version {
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    align-items: center;
+    color: #0B2239;
+    opacity: 0.3;
+    margin: 0px;
+}
+
+.name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    align-items: center;
+    color: #0B2239;
+    opacity: 0.3;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.box {
+    height: 10000px;
+}
+
+.box h6 {
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 480px;
+    align-items: center;
+    color: #0B2239;
+    opacity: 0.3;
+}
+
+.banner1 {
+    
+    background-color: #0B2239;
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 72px;
+    position: relative;
+    margin-top: 324px;
+  }
+    
+
+
+.text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    margin-left: 30px;
+    width: 922px;
+    height: 40px;
+
+}
+
+.banner1 a {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 70px;
+    color: #4AD295;
+  
+   
+}
+.button1 {
+    background-color: #4AD295;
+    color: white;
+    border-radius: 2px;
+    width: 170px;
+    border: 30px;
+    height: 25px;
+    margin-top: 25px;
+}
+
+.banner2 {
+    background-color: #2B2627;
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+    width: 1440px;
+    height: 52px;
+    position: relative;
+    margin-top: 24px;
+    
+}
+
+.picture1 {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 18px;
+    left: 340px;
+}
+.text2 {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    height: 20px;
+}
+.picture2 {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 18px;
+    right: 340px;
+
+}
+.banner3 {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 560px;
+    height: 72px;
+    position: relative;
+    margin-top: 88px;
+    border-radius: 16px;
+}
+.text3 {
+    color: #0D0C22;
+    width: 347px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 10px;
+    height: 28px;
+    background-color: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    border: none;
+    outline:none;
+   
+}
+.button3 {
+    background-color: #EA4C89;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 10px;
+    height: 28px;
+    border-radius: 8px;
+    border-color: #EA4C89;
+    border: none;
+    outline:none;
+}
+.banner4 {
+    background-color: #26262B;
+    position: relative;
+    margin-top: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 1px;
+    gap: 10px;
+    width: 560px;
+    
+}
+.text4 {
+    color: #FFFFFF;
+    width: 347px;
+    width: 469px;
+    height: 40px;
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+.button4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 10px;
+    gap: 10px;
+    height: 28px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.underline {
+    text-decoration: underline;
+}
+.banner5 {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 24px;
+    gap: 16px;
+    width: 360px;
+    background: rgba(28, 37, 64, 0.95);
+    border-radius: 6px;
+    position: relative;
+    margin-top: 72px;
+    box-sizing: border-box;
+}
+.text5 {
+    height: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text5b {
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: -25px;
+}
+.button5{
+    padding: 8px 20px;
+    gap: 10px;
+    width: 85px;
+    height: 32px;
+    background: #09B3AF;
+    border: none;
+    outline:none;
+    border-radius: 6px;
+    position: relative;
+    margin-left: 230px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.banner6{
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 16px 0px 0px 16px;
+    gap: 16px;
+    width: 360px;
+    height: 170px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    position: relative;
+    margin-inline-start: 400px;
+    margin-top: -212px;
+
+}
+.text6{
+    width: 350px;
+    height: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #687F8C;
+    position: relative;
+    margin-top: 15px;
+}
+.button6{
+    padding: 8px;
+    gap: 10px;
+    width: 160px;
+    height: 32px;
+    background: #EAF0F4;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    border: none;
+    position: relative;
+    margin-right: 5px;
+    bottom: 0px;
+}
+.button6b{
+    padding: 8px;
+    gap: 10px;
+    width: 160px;
+    height: 32px;
+    background: #40C1A7;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+    border: none;
+    bottom: 0px;
+}
+.banner7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 320px;
+    height: 260px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 115px;
+    background: linear-gradient( rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+}
+.text7{
+    width: 104px;
+    height: 48px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #15295A;
+    position: relative;
+    margin-top: 50px;
+}
+.text7b{
+    width: 256px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #15295A;
+    
+}
+.button7{
+    
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    width: 121px;
+    height: 44px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    }
+    .banner8{
+       
+        padding: 16px;
+        gap: 12px;
+        width: 320px;
+        height: 137px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        position: relative;
+        margin-inline-start: 400px;
+        margin-top: -256px;
+    
+
+    }
+    .text8{
+        width: 180x;
+        height: 60px;
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 20px;
+        color: #000000;
+    }
+    .text8b{
+        height: 16px;
+        color: #6666FF;
+        position: relative;
+        margin-top: 50px;
+       
+        
+        
+    }
+    .button8{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        gap: 10px;
+        width: 80px;
+        height: 33px;
+        background: #6666FF;
+        border-radius: 4px;
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        position: absolute;
+        margin:-20px 5px 0px 230px ;
+
+      }
