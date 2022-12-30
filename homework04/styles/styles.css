@@ -1,0 +1,55 @@
+.firstpage{
+    background: #ED4C5C;
+    height: 500px;
+    width: 100%;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: absolute;
+    height: auto;
+    left: 165px;
+    top: 122px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 43px;
+    width: 33%;
+}
+.text1{
+    display: inline-block;
+    position: absolute;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+    width: 33%;
+
+}
+
+.slider{
+    position: absolute;
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+    flex: none;
+
+}
+.logo{
+    position: absolute;
+    width: 10%;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 1px;
+    gap: 15px;
+}
