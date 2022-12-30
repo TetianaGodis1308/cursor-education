@@ -1,7 +1,7 @@
 .firstpage{
     background: #ED4C5C;
     height: 500px;
-    width: 100%;
+    width: 1440px;
     color: white;
     font-family: 'Lato';
     font-style: normal;
@@ -52,4 +52,144 @@ h1{
     align-items: center;
     padding: 18px 1px;
     gap: 15px;
+}
+.contact {
+    position: absolute;
+    width: 1450px;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    background: #FFFFFF;
+    color: black;
+    font-family: 'Lato';
+    font-style: normal;
+}
+h2{
+    position: absolute;
+    width: 33%;
+    height: 107px;
+    left: 176px;
+    top: 117px;
+    font-size: 36px;
+    margin-top: 0;
+
+}
+.textcontact{
+    position: absolute;
+    width: 33%;
+    height: 64px;
+    left: 176px;
+    top: 213px;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: justify;
+}
+.input{
+    position: absolute;
+    width: 40%;
+    height: 305px;
+    left: 735px;
+    top: 117px;
+   
+
+}
+.firstname{
+
+    width: 255px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 18px 16px;
+    font-size: 16px;
+    margin-right: 30px;
+
+}
+.lastname{
+    position: absolute;
+    width: 255px;  ;
+    padding: 18px 16px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.phone{
+  
+    width: 576px;
+    padding: 18px 16px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.service{
+    width: 576px;
+    padding: 18px 16px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.button{
+
+    width: 160px;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin-top: 27px;
+    font-size: 16px;
+}
+.chevron{
+    position: relative;
+    top: 60px;
+    left: 564px;
+}
+footer {
+    position: absolute;
+    align-items: center;
+    width: 1440px;
+    height: 435px;
+    left: 0px;
+    top: 523px;
+    background: #FAFAFA;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+}
+.address{
+    position: absolute;
+    width: 259px;
+    margin-left: 161px;
+
+    
+}
+.services{
+    position: absolute;
+    width: 259px;
+
+    margin-left: 500px;
+   
+}
+.social{
+    position: absolute;
+    width: 259px;
+ 
+    margin-left: 784px;
+
+}
+.support {
+    position: absolute;
+    width: 259px;
+
+    margin-left: 1072px;
+ 
+}
+h3{
+    margin-top: 85px;
+    margin-bottom: 33px;
+}
+.endtext {
+    margin-top: 180px;
 }
