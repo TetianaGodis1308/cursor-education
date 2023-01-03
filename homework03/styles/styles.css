@@ -105,6 +105,7 @@ height: max-content;
     border: 30px;
     height: 25px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .banner2 {
@@ -175,6 +176,7 @@ height: max-content;
     border-radius: 8px;
     border: none;
     outline:none;
+    cursor: pointer;
    
 }
 .button3 {
@@ -190,6 +192,7 @@ height: max-content;
     border-color: #EA4C89;
     border: none;
     outline:none;
+    cursor: pointer;
 }
 .banner4 {
     background-color: #26262B;
@@ -219,12 +222,14 @@ height: max-content;
 .button4 {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     padding: 4px 10px;
     gap: 10px;
     height: 28px;
     background: #FFFFFF;
     border-radius: 8px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
 }
 .underline {
     text-decoration: underline;
@@ -276,6 +281,7 @@ height: max-content;
     flex: none;
     order: 1;
     flex-grow: 0;
+    cursor: pointer;
 }
 .banner6{
     flex-direction: column;
@@ -317,6 +323,7 @@ height: max-content;
     position: relative;
     margin-right: 5px;
     bottom: 0px;
+    cursor: pointer;
 }
 .button6b{
     padding: 8px;
@@ -328,6 +335,7 @@ height: max-content;
     border-radius: 6px;
     border: none;
     bottom: 0px;
+    cursor: pointer;
 }
 
     .banner8{
@@ -383,6 +391,7 @@ height: max-content;
         border: none;
         position: absolute;
         margin:-20px 5px 0px 230px ;
+        cursor: pointer;
 
       }
       .banner7{
@@ -438,4 +447,5 @@ height: max-content;
         font-size: 18px;
         line-height: 24px;
         color: #FFFFFF;
+        cursor: pointer;
         }
