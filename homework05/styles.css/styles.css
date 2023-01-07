@@ -1,0 +1,78 @@
+body{
+ background: #343232;
+}
+
+.mainpage {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 50px;
+}
+.mainpage h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.table{
+    width: 60%;
+    border: 2px solid rgb(78 78 78) ;
+    border-radius: 5px;
+    background: rgb(62 61 61);
+    margin-bottom: 40px;
+}
+.table td{
+    border-top: 2px solid rgb(78 78 78) ;
+    padding: 7px;
+    height: 35px;
+    width: 50%;
+    vertical-align: middle;
+}
+th{
+    padding: 7px;
+    height: 25px;
+    width: 50%;
+    vertical-align: middle;
+}
+td {
+    color: #999595;
+}
+.datetext{
+    color: rgb(90, 90, 90)
+}
+
+.checkbox{
+display: inline-block;
+}
+#caretdown1, #caretdown2, #caretdown3{
+    cursor: pointer;
+}
+.choice{
+    cursor: pointer;
+}
+.thdate{
+    position: relative;
+}
+.search{
+    display: inline;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -23px;
+    background: rgb(71, 71, 71);
+    height: 24px;
+    border: 2px solid rgb(78 78 78) ;
+    border-radius: 5px;
+}
+.boxicons{
+    color: rgb(104, 173, 238);
+}
+.button {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    margin-left: 233px;
+    margin-top: -17px;
+    color: gray;
+}
+#button{
+    color: gray;
+}
