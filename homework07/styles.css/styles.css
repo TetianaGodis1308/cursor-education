@@ -3,7 +3,7 @@
     width: 1600px;
     padding: 50px 240px;
     box-sizing: border-box;
-
+    position: relative;
 }
 a{ 
     text-decoration: none
@@ -23,34 +23,34 @@ header {
     color: #4B5D68;
     margin-right: 418px;
 }
-    .about{
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 160%;
-    }
-
-.button1{
-    background-color: #FFFFFF;
-    width: 210px;
-    height: 60px;
-    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-    border: 0px;
-    border-radius: 50px;
+.about{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 16px;
     line-height: 160%;
-    color: #212353;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    cursor: pointer;
-    }
-    .section1 {
-        margin-top: 145px;
-    }
-    .section1 h1{
+}
+
+.button1{
+background-color: #FFFFFF;
+width: 210px;
+height: 60px;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border: 0px;
+border-radius: 50px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+cursor: pointer;
+}
+.section1 {
+    margin-top: 145px;
+}
+.section1 h1{
     width: 645px;
     height: 184px;
     font-family: 'Helvetica';
@@ -59,8 +59,8 @@ header {
     font-size: 80px;
     line-height: 110%;
     color: #212353;
-    }
-    .section1 p{
+}
+.section1 p{
     width: 380px;
     height: 120px;
     left: 240px;
@@ -71,8 +71,8 @@ header {
     line-height: 160%;
     color: #4B5D68;
     margin-top: 50px;
-    }
-    .section1 button{
+}
+.section1 button{
     width: 170px;
     height: 60px;
     left: 240px;
@@ -89,25 +89,31 @@ header {
     margin-top: 50px;
 }
 .section1 img{
-    margin-top: -336px;
-    margin-left: 436px;
+    position: absolute;
+    top: 336px;
+    left:603px;
 }
 .section2{
     width: 1117px;
     height: 560px;
-    left: 240px;
-    top: 903.18px;
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     margin-top: 131px;
-
+    display: flex;
+    justify-content: space-between;
+}
+.section2text{
+    margin-top: 125px;
+    margin-right: 92px;
+    width: 474px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .section2 h1{
-    position: absolute;
     width: 475px;
     height: 100px;
-    left: 790px;
-    top: 1128px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
@@ -116,11 +122,8 @@ header {
     color: #212353;
 }
 .section2 p{
-    position: absolute;
     width: 474px;
     height: 170px;
-    left: 790px;
-    top: 1268px;
     font-family: 'Montserrat', sans-serif;
     line-height: 160%;
     color: #4B5D68;
@@ -129,10 +132,6 @@ header {
     width: 1136px;
     height: 1002px;
     margin-top: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
 }
 .section3 h1{
     display: flex;
@@ -153,10 +152,10 @@ header {
     width: 584px;
     margin-top: 50px;
     margin-bottom: 148px;
+    margin-left: 275px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    line-height: 160%;
     line-height: 160%;
     text-align: center;
     color: #4B5D68;
@@ -321,7 +320,6 @@ h3{
 }
 .footer{
     position: relative;
-    width: 1600px;
     height: 850px;
     left: 0px;
     margin-top: 150px;
@@ -389,13 +387,13 @@ h3{
 }
 .write{
     position: absolute;
-    margin-top: 699px; 
+    margin-top: 759px;
     margin-left: 1057px;
     cursor: pointer;
 }
 .textend{
     position: absolute;
-    margin-top: 699px;
+    margin-top: 759px;
     width: 360px;
     height: 50px;
     font-family: 'Montserrat', sans-serif;

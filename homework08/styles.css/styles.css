@@ -1,3 +1,6 @@
+body{
+    background: #F5F5F5;
+}
 .block1{
     display: flex;
     justify-content: space-between;
@@ -118,13 +121,14 @@ hr{
     color: #FFFFFF;
 }
 .main{
-    height: 4077px;
-    width: 1439px;
+
+    width: 1440px;
     margin-top: 152px;
     display: flex;
     flex-direction: column;
     padding-left: 165px;
     padding-right: 165px;
+    padding-bottom: 50px;
     box-sizing: border-box;
     background: #F5F5F5;
 }
@@ -401,6 +405,9 @@ hr{
     margin-top: 25px;
     margin-left: -42px;
     cursor: pointer;
+}
+.footer{
+    background: #F5F5F5;
 }
 .footer h2{
 position: absolute;
