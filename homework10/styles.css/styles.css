@@ -1,0 +1,538 @@
+.header{
+    background: #F4F6F9;
+    width: 1440px;
+    height: 665px;
+    box-sizing: border-box;
+    position: relative;
+}
+:root{
+    --color-header:#333333;
+    --color-text:#4F4F4F;
+    --color-text-blue:#00ADEE;
+}
+.left_block_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 163px;
+}
+.logo{
+    width: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 61px;
+}
+.header h1{
+    color: var(--color-header);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    width: 546px;
+    margin-top: 133px;
+}
+.text_header{
+    color: var(--color-text);
+    width: 453px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.text_logo{
+    font-family: 'Work Sans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282F0;
+    padding-top: 10px;
+    padding-left: 2px;
+}
+.download{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.download_picture{
+    cursor: pointer;
+}
+.picture_header{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+main{
+    width: 1440px;
+}
+.photo_section1{
+    width: 805px;
+    height: 592px;
+    position: relative;
+    background: linear-gradient(270deg, #FFFFFF 10.16%, rgba(255, 255, 255, 0) 67.14%), url(/homework10/image/Rectangle.png);
+    border: 0;
+}
+.photo1_section1{
+    position: absolute;
+    z-index: 2;
+    top: 109px;
+    left: 163px;
+}
+.photo2_section1{
+    position: absolute;
+    z-index: 1;
+    top: 296px;
+    left: 269px;
+}
+.section1{
+    display: flex;
+}
+.block_section_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 27px;
+    padding: 133px 61px 117px 0;
+}
+.block_section_text h5{
+    color: var(--color-text-blue);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+.block_section_text h2{
+    color: var(--color-header);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+}
+.block_section_text p{
+    color: var(--color-text);
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: 407px;
+}
+.button{
+    cursor: pointer;
+    color: var(--color-text-blue);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+.photo_section2{
+    background:url(/homework10/image/SAMPLE05.png);
+    width: 1400px;
+    height: 700px;
+    z-index: 1;
+}
+.section2 .block_section_text{
+    position: absolute;
+    z-index: 2;
+    margin-left: 162px;
+    margin-top: 80px;
+    height: 380px;
+    top: 1200px;
+}
+.section3{
+    background: url(/homework10/image/Group2.png) var(--color-text-blue);
+    color: #FFFFFF;
+    height: 730px;
+}
+.section3 h2{
+    position: absolute;
+    left: 466px;
+    top: 2049px;
+    width: 508px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+}
+.section3block{
+    position: absolute;
+    left: 166px;
+    top: 2149px;
+    display: grid;
+    grid-template-columns: 311px 311px 311px;
+    grid-template-rows: 150px 150px 150px;
+    column-gap: 90px;
+    row-gap: 50px;
+}
+.section3block{
+    width: 310px;
+    height: 150px;
+}
+.section3block p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: 350px;
+}
+.icons{    
+    width: 30px !important;
+}
+.icons_color{
+    fill: white;
+}
+.section4{
+    top: 2500px;
+    height: 431px;
+}
+.footer{
+    width: 1440px;
+}
+.footer_block1{
+background: #FAFAFA;
+height: 278px;
+width: 1440px;
+box-sizing: border-box;
+padding-top: 57px;
+}
+.footer_block1 h2{
+    margin-left: 560px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+}
+.footer_block1 div{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_block2{
+    height: 483px;
+    background-image: url(/homework10/image/Group692.png);
+    background-repeat: no-repeat;
+}
+.footer_block2_text{
+    position: absolute;
+    left: 743px;
+    top: 3622px;
+    margin-left: 70px;
+    margin-bottom: 183px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_block2_text h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    margin-bottom: 35px;
+}
+.footer_block2_text p{
+    color: var(--color-text);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 535px;
+}
+.footer_block3{
+    height: 127px;
+    background: var(--color-text-blue);
+    display: flex;
+    justify-content: space-around;
+}
+.footer_block3 .text_logo{
+    color: #FFFFFF;
+}
+.footer_block3 .logo{
+    margin-top: 1px;
+}
+.link, .social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+}
+.social img{
+    cursor: pointer;
+}
+.link a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+.section4 h2{
+    position: absolute;
+    left: 594px;
+    top: 2776px;
+    width: 252px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: var(--color-header);
+}
+.slider{
+    margin-top: 163px;
+    height: 320px;
+}
+.slider_child{
+    width: 309px !important;
+    height: 161px !important;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-right: 35px;
+    padding: 15px;
+    position: relative;
+}
+.slider_child h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    position: absolute;
+    top: 20px;
+    left: 58px;
+}
+.slider_child p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+    margin-top: 18px;
+}
+.actions img{
+    cursor: pointer;
+}
+.vector{
+position: absolute;
+top: 24px;
+left: 281px;
+}
+.prev{
+    position: absolute;
+    left: 149px;
+    top: 2933px;
+}
+.next{
+    position: absolute;
+    left: 1292px;
+    top: 2933px;
+}
+@media screen and (max-width: 720px) {
+   .header{
+        width: 360px;
+    }
+    .picture_header{
+        display: none;
+    }
+    .logo{
+        margin-top: 34px;
+    } 
+    .left_block_header{
+        margin-left: 131px;
+    }
+    .header h1{
+        position: absolute;
+        width: 320px;
+        height: 119px;
+        left: 20px;
+        top: 150px;
+        margin-top: 0;
+        margin-bottom: 33px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .text_header{
+        position: absolute;
+        width: 320px;
+        height: 70px;
+        left: 20px;
+        top: 302px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .download{
+        position: absolute;
+        left: 20px;
+        top: 422px;
+        width: 300px;
+    }
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 360px;
+    }
+    .photo_section1{
+        order: 2;
+        background: linear-gradient(270deg, #FFFFFF 10.16%, rgba(255, 255, 255, 0) 67.14%), url(/homework10/image/Rectangle2.png);
+        height: 339px;
+    }
+    .photo1_section1{
+        left: -21px;
+        top: 35px;
+        width: 70%;
+    }
+    .photo2_section1{
+        left: 85px;
+        top: 129px;
+        width: 70%;
+    }
+    .block_section_text{
+        order: 1;
+        width: 360px;
+        height: 500px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 35px 25px 55px 25px;
+    }
+    .block_section_text p{
+        width: 280px;
+    }
+    .photo1_section1{
+        display: flex;
+        justify-content: center;
+    }
+    .section2{
+        height: 700px;
+        width: 360px;
+    }
+    .photo_section2{
+        position: absolute;
+        width: 360px;
+        height: 500px;
+        margin-top: 520px;
+        background: url(/homework10/image/SAMPLE052.png);
+    }
+    .section2 .block_section_text{
+        margin: 0;
+        height: 500px;
+        top: 1500px;
+    }
+    .section3{
+        color: black;
+        position: absolute;
+        top: 2510px;
+        background: #FAFAFA;
+        width: 360px;
+        height: 1330px;
+
+    }
+    .section3 h2{
+        position: relative;
+        top: 30px;
+        left: 15px;
+        width: 340px;
+        text-align: center;
+    }
+    .section3block{
+        top: 120px;
+        left: 15px;
+        row-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+    .icons_color{
+        fill: var(--color-text-blue);
+    }
+    .section3block p{
+        text-align: center;
+        width: 300px;
+    }
+    .section4{
+        display: none;
+    }
+    .footer_block1{
+       position: absolute;
+       margin-top: -485px;
+       margin-left: 0;
+       width: 360px;
+       height: 409px;
+    }
+    .footer_block1 h2{
+        position: absolute;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+    .footer_block1 div{
+        width: 360px;
+        margin-top: 75px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer_block2{
+        margin-top: 2115px;
+        height: 600px;
+        background-image: url(/homework10/image/Group692\,2.jpg);
+    }
+    .footer_block2_text h2{
+        margin-top: 645px;
+        margin-left: -795px;
+        width: 320px;
+        text-align: center;
+    }
+    .footer_block2_text p{
+        width: 310px;
+        height: 200px;
+        margin-left: -795px;
+        text-align: center;
+    }
+    .footer_block2_text .download{
+        left: -790px;
+        top: 922px;
+    }
+    .footer_block3{
+        width: 360px;
+        height: 210px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-left: 15px;
+    }
+    .footer_block3 .logo{
+        order: -1;
+        flex: 1 0 100%;
+    }
+    .logo{
+        justify-content: flex-start;
+    }
+    .footer_block3 .social{
+        order: -1;
+    }
+    .footer_block3 link{
+        order: 1;
+    }
+    .link{
+        width: 300px;
+        gap:5px;
+    }
+
+}
+
+
