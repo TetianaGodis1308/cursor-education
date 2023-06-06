@@ -1,0 +1,127 @@
+h1{
+    color: #37447E;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    display: inline;
+    margin-left: 681px;
+    position: absolute;
+    margin-top: -15px;
+}
+nav{
+    display: inline;
+}
+h3{
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+    margin-right: 60px;
+    cursor: pointer;
+}
+header{
+    margin-top: 15px;
+    margin-left: 165px;
+}
+header button{
+    width: 160px;
+    margin-left: 1115px;
+    margin-top: -15px;
+    position: absolute;
+}
+main{
+    width: 1440px;
+}
+.image1{
+    position: absolute;
+    top: -49px;
+    left: 418px;
+}
+.image2{
+    position: absolute;
+    top: 245px;
+    right: 0;
+}
+h2{
+    height: 132px;
+    width: 539px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    position: absolute;
+    top: 303px;
+    margin-left: 163px;
+}
+.section1 p{
+    height: 164px;
+    width: 440px;
+    position: absolute;
+    top: 465px;
+    margin-left: 163px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505F98;
+} 
+#button1{
+    position: absolute;
+    left:163px;
+    top: 695px;
+}
+#button2{
+    position: absolute;
+    left:383px;
+    top: 695px;
+}
+footer{
+    position: absolute;
+    top:1060px;
+    background: #E7ECFF;
+    height:216px;
+    width: 1440px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color: #939EA4;
+    margin-top: 68px;
+    margin-left: 165px;
+}
+footer h1{
+    margin-top: 61px;
+    margin-left: -100px;
+}
+footer button{
+    height: 36px;
+    margin-top: 61px;
+    margin-right: 165px;
+}
+hr{
+    width: 1110px;
+    margin-left: 165px;
+}
+footer nav{
+    margin-left: 165px;
+}
+.social{
+    color: #B0B8BC;
+    margin-left: 1079px;
+    margin-top: -20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen {
+    
+}
